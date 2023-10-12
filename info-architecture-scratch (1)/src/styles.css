@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.sidebar {
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background: #0c269a;
+  color: white;
+}
+
+.content {
+  padding: 10px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  padding: 10px;
+}
+
+.card a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 0 0 10px 10px;
+}
